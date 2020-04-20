@@ -1,0 +1,9 @@
+---
+default: -p html -p bdd -p homolog -p json
+html: --format html --out=report/features.html
+dot: --format progress
+bdd: --format pretty
+json: --format json -o "report/report.json"
+roda_background: HEADLESS=roda_background
+roda_navegador: HEADLESS=roda_navegador
+homolog: AMBIENTE=homolog

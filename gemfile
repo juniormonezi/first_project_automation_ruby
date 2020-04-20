@@ -1,0 +1,14 @@
+source 'http://rubygems.org'
+
+gem 'byebug'
+gem 'capybara'
+gem "cpf_cnpj"
+gem 'cucumber'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'site_prism', '3.4'
+gem 'ffi'
+gem 'faker'
+gem 'report_builder'
+gem 'pry'
+gem 'cpf_faker'
